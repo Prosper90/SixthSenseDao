@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
-import "./libraries/NFTLib.sol";
+import "../libraries/NFTLib.sol";
 
 contract SSDNFT is ERC721Enumerable, Ownable {
 	uint256 public pos;	//new tokenID
